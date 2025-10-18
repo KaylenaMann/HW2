@@ -16,7 +16,7 @@
 3. L2-Regularized Logistic Regression
 
 ## Evaluation metrics on training/validation split 
-All three models performed similarly on the validation set. The binary logistic regression with class weights achieved the best hold-out F1-score of 0.33, and a relatively good balance of precision and recall. When submitted to the Kaggle leaderboard, the final score was 0.28
+All three models performed similarly on the validation set. The binary logistic regression with class weights achieved the best hold-out F1-score of 0.33, and a relatively good balance of precision and recall. 
 
 | Model | F1   | Precision(1)| Recall(1) | PR-AUC |
 |------:|:----:|------------:|----------:|-------:|
@@ -24,9 +24,13 @@ All three models performed similarly on the validation set. The binary logistic 
 | KNN   | 0.31 | 0.25        | 0.41      | 0.20   |
 | L2Reg | 0.24 | 0.14        | 0.85      | 0.25   |
 
-*Note that due to the competition being over, my score cannot be added to the leaderboard; instead, a screenshot was included of my final score.*
+## Screenshot of Kaggle final score 
+
+When submitted to the Kaggle leaderboard, the final score was 0.28. 
 
 <img width="999" height="152" alt="Leaderboard:Submission Results Screenshot" src="https://github.com/user-attachments/assets/5afd82a1-c773-405b-8bb1-e8e243f4cfd5" />
+
+*Note that due to the competition being over, my score cannot be added to the leaderboard; instead, a screenshot was included of my final score.*
 
 ## Reflections
 This was some of the most fun I have had working on an assignment, and great practice for building an ML pipeline. My Python coding greatly improved, and I learned how to actually tune parameters. I definitely made some mistakes along the way, such as almost using the test set mean to center my predictors for the final submission, which would have resulted in leakage. I also spent a lot of time debugging. For example, I was having trouble with model convergence and realized I accidentally included both my centered predictors and regular predictors in the final model, which meant high collinearity!
