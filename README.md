@@ -24,6 +24,8 @@ All three models performed similarly on the validation set. The binary logistic 
 | KNN   | 0.31 | 0.25        | 0.41      | 0.20   |
 | L2Reg | 0.24 | 0.14        | 0.85      | 0.25   |
 
+<img width="999" height="152" alt="Leaderboard:Submission Results Screenshot" src="https://github.com/user-attachments/assets/5afd82a1-c773-405b-8bb1-e8e243f4cfd5" />
+
 ## Reflections
 This was some of the most fun I have had working on an assignment, and great practice for building an ML pipeline. My Python coding greatly improved, and I learned how to actually tune parameters. I definitely made some mistakes along the way, such as almost using the test set mean to center my predictors for the final submission, which would have resulted in leakage. I also spent a lot of time debugging. For example, I was having trouble with model convergence and realized I accidentally included both my centered predictors and regular predictors in the final model, which meant high collinearity!
 
