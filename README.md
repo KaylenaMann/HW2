@@ -24,6 +24,8 @@ All three models performed similarly on the validation set. The binary logistic 
 | KNN   | 0.31 | 0.25        | 0.41      | 0.20   |
 | L2Reg | 0.24 | 0.14        | 0.85      | 0.25   |
 
+*Note that due to the competition being over, my score cannot be added to the leaderboard; instead, a screenshot was included of my final score.*
+
 <img width="999" height="152" alt="Leaderboard:Submission Results Screenshot" src="https://github.com/user-attachments/assets/5afd82a1-c773-405b-8bb1-e8e243f4cfd5" />
 
 ## Reflections
@@ -36,5 +38,3 @@ References:
 Gan, Y., Wu, J., Li, L., Zhang, S., Yang, T., Tan, S., Mkandawire, N., Zhong, Y., Jiang, J., Wang,Z., & Lu, Z. (2018). Association of smoking with risk of stroke in middle-aged and older Chinese: Evidence from the China National Stroke Prevention Project. Medicine, 97(47), e13260. https://doi.org/10.1097/MD.0000000000013260
 
 Zhou, L., Chen, G., Liu, C., Liu, L., Zhang, S., & Zhao, X. (2008). Body mass index, blood pressure, and mortality from stroke: a prospective cohort study. Stroke, 39(7), 2065–2071. https://doi.org/10.1161/STROKEAHA.107.495374
-
-*Note that due to the competition being over, my score cannot be added to the leaderboard; instead, a screenshot was included of my final score.*
